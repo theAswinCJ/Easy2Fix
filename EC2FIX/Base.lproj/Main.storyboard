@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lcF-Vy-FX8">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,10 +23,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cUM-1I-emI">
-                                <rect key="frame" x="16" y="90" width="343" height="493"/>
+                                <rect key="frame" x="32" y="80" width="311" height="522"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rdu-lY-h4N">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="65.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="311" height="70.5"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="titleEdgeInsets" minX="-125" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="-205" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -34,11 +34,11 @@
                                             <color key="titleColor" red="0.28627450980392155" green="0.39215686274509803" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Sza-uE-82E" kind="show" id="qKN-XI-5Mj"/>
+                                            <segue destination="Sza-uE-82E" kind="show" id="dAv-zs-1Z4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4i-Yq-vlz">
-                                        <rect key="frame" x="0.0" y="85.5" width="343" height="65.5"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="311" height="70"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="titleEdgeInsets" minX="-85" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="-163" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -46,11 +46,11 @@
                                             <color key="titleColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="mhN-Oh-msy" kind="show" id="idD-Qv-tx2"/>
+                                            <segue destination="mhN-Oh-msy" kind="showDetail" id="QQ4-cp-Qdf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpf-6K-x1B">
-                                        <rect key="frame" x="0.0" y="171" width="343" height="65.5"/>
+                                        <rect key="frame" x="0.0" y="180.5" width="311" height="70.5"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="titleEdgeInsets" minX="-90" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="-158" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -59,7 +59,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8HP-WB-kSJ">
-                                        <rect key="frame" x="0.0" y="256.5" width="343" height="65.5"/>
+                                        <rect key="frame" x="0.0" y="271" width="311" height="70.5"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="titleEdgeInsets" minX="-120" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="-188" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -68,7 +68,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rv2-D7-9nt">
-                                        <rect key="frame" x="0.0" y="342" width="343" height="65.5"/>
+                                        <rect key="frame" x="0.0" y="361.5" width="311" height="70"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="titleEdgeInsets" minX="-120" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="-193" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -77,7 +77,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="col-kG-ZCk">
-                                        <rect key="frame" x="0.0" y="427.5" width="343" height="65.5"/>
+                                        <rect key="frame" x="0.0" y="451.5" width="311" height="70.5"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="titleEdgeInsets" minX="-90" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="-162" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -96,57 +96,28 @@
                                 <color key="tintColor" red="0.0" green="0.47058823529999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.0" green="0.39215686274509803" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="EC2FIX" id="Hpc-xr-mly">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="URt-2n-C7e">
-                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="RIJ-7T-ycz">
-                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem title="EC2FIX" id="v1x-jA-zbz"/>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pZw-6U-CUh">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="Vxw-Kg-dZ5">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="3Ja-ba-v59">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="D3I-yg-SM3">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="cB6-RE-1yj">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="UPu-sy-Pmu">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676698903096" green="0.9217000698667378" blue="0.94642568005181349" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pZw-6U-CUh" secondAttribute="bottom" id="BLG-lq-KiF"/>
-                            <constraint firstAttribute="trailing" secondItem="DGK-J2-F2o" secondAttribute="trailing" id="N3g-zB-2BP"/>
-                            <constraint firstItem="DGK-J2-F2o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ov9-kF-HZ4"/>
-                            <constraint firstAttribute="trailing" secondItem="pZw-6U-CUh" secondAttribute="trailing" id="acV-VF-Ysn"/>
-                            <constraint firstItem="cUM-1I-emI" firstAttribute="top" secondItem="DGK-J2-F2o" secondAttribute="bottom" constant="26" id="cmo-zq-qPM"/>
-                            <constraint firstItem="DGK-J2-F2o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kXF-bD-zcG"/>
-                            <constraint firstItem="cUM-1I-emI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qsE-tk-DtP"/>
-                            <constraint firstItem="pZw-6U-CUh" firstAttribute="top" secondItem="cUM-1I-emI" secondAttribute="bottom" constant="35" id="tby-lG-IOf"/>
-                            <constraint firstItem="pZw-6U-CUh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="w37-LT-EXL"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cUM-1I-emI" secondAttribute="trailing" id="y02-1D-Elk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cUM-1I-emI" secondAttribute="bottom" constant="16" id="2r5-uj-E5O"/>
+                            <constraint firstItem="DGK-J2-F2o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="69n-FP-Kvo"/>
+                            <constraint firstItem="cUM-1I-emI" firstAttribute="top" secondItem="DGK-J2-F2o" secondAttribute="bottom" constant="16" id="7Q3-WW-W7y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cUM-1I-emI" secondAttribute="trailing" constant="16" id="Ec2-eH-nCY"/>
+                            <constraint firstItem="cUM-1I-emI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="Wyu-bC-MUI"/>
+                            <constraint firstAttribute="trailing" secondItem="DGK-J2-F2o" secondAttribute="trailing" id="Zd4-Lm-k2O"/>
+                            <constraint firstItem="DGK-J2-F2o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ttu-tI-uY0"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="Home" id="wG1-Wp-G8y">
+                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-18.399999999999999" y="35.532233883058474"/>
+            <point key="canvasLocation" x="-114" y="229"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cF1-YM-S6K">
@@ -173,6 +144,9 @@
                                     <navigationItem title="REQUEST A QUOTE" id="N8Z-CF-BVT">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="z8J-hT-ARU">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="lcF-Vy-FX8" kind="show" id="3Ro-dM-gJ1"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="GN8-cP-oyv">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -233,18 +207,19 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="RPs-Zp-CMA">
                                         <rect key="frame" x="0.0" y="386.5" width="311" height="103.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lj-y6-5xF">
-                                                <rect key="frame" x="0.0" y="0.0" width="311" height="42"/>
-                                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="REVIEW REQUEST" backgroundImage="border">
-                                                    <color key="titleColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yL1-S5-udz">
-                                                <rect key="frame" x="0.0" y="62" width="311" height="41.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="311" height="42"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="REVIEW REQUEST">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" red="0.0" green="0.47058823529999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJn-ex-EAT">
+                                                <rect key="frame" x="0.0" y="62" width="311" height="41.5"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47058823529999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.47058823529999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="REQUEST A QUOTE">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="titleShadowColor" red="0.0" green="0.47058823529999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -254,54 +229,168 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDf-2B-z7k">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49" id="EYz-ie-fb9"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="49" id="IlY-ay-4iG"/>
-                                </constraints>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="7Ri-Ad-xnM">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="xlZ-O4-0cu">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="HIM-Bd-QkY">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="jLP-h8-KrH">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="mYz-ql-7Ex">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KDf-2B-z7k" firstAttribute="top" secondItem="C1T-EU-Vlv" secondAttribute="bottom" constant="32" id="72Y-XT-eRj"/>
-                            <constraint firstItem="KDf-2B-z7k" firstAttribute="leading" secondItem="TE9-Kf-EFc" secondAttribute="leading" id="8eg-eV-7oa"/>
-                            <constraint firstItem="C1T-EU-Vlv" firstAttribute="top" secondItem="5xg-us-Bjj" secondAttribute="bottom" constant="32" id="GY5-lO-UVm"/>
-                            <constraint firstItem="5xg-us-Bjj" firstAttribute="top" secondItem="XgO-mO-ffc" secondAttribute="bottom" id="Q14-LH-g44"/>
-                            <constraint firstAttribute="trailing" secondItem="5xg-us-Bjj" secondAttribute="trailing" id="Sbl-Cb-UNG"/>
-                            <constraint firstAttribute="trailing" secondItem="KDf-2B-z7k" secondAttribute="trailing" id="T5A-0o-pO7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="C1T-EU-Vlv" secondAttribute="trailing" constant="16" id="VYr-Br-hc9"/>
-                            <constraint firstItem="5xg-us-Bjj" firstAttribute="leading" secondItem="TE9-Kf-EFc" secondAttribute="leading" id="hoG-4r-FwU"/>
-                            <constraint firstItem="2Fe-ag-VAE" firstAttribute="top" secondItem="KDf-2B-z7k" secondAttribute="bottom" id="sPD-nu-Tnv"/>
-                            <constraint firstItem="C1T-EU-Vlv" firstAttribute="leading" secondItem="TE9-Kf-EFc" secondAttribute="leadingMargin" constant="16" id="u5U-Wt-eVk"/>
+                            <constraint firstItem="2Fe-ag-VAE" firstAttribute="top" secondItem="C1T-EU-Vlv" secondAttribute="bottom" constant="32" id="27l-ou-ydq"/>
+                            <constraint firstItem="5xg-us-Bjj" firstAttribute="top" secondItem="XgO-mO-ffc" secondAttribute="bottom" id="Czs-hd-pJh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C1T-EU-Vlv" secondAttribute="trailing" constant="16" id="cDR-Xh-MxQ"/>
+                            <constraint firstAttribute="trailing" secondItem="5xg-us-Bjj" secondAttribute="trailing" id="hwX-nl-bvQ"/>
+                            <constraint firstItem="C1T-EU-Vlv" firstAttribute="leading" secondItem="TE9-Kf-EFc" secondAttribute="leadingMargin" constant="16" id="kVe-ZT-TQu"/>
+                            <constraint firstItem="5xg-us-Bjj" firstAttribute="leading" secondItem="TE9-Kf-EFc" secondAttribute="leading" id="nTA-3c-s7l"/>
+                            <constraint firstItem="C1T-EU-Vlv" firstAttribute="top" secondItem="5xg-us-Bjj" secondAttribute="bottom" constant="32" id="yCq-nQ-Tma"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="borderButton" destination="3lj-y6-5xF" id="uAt-ue-ji7"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgG-QS-2UK" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="733.60000000000002" y="36.431784107946029"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ooi-oV-6Vn">
+            <objects>
+                <viewController id="VFI-b6-Zek" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="taN-uG-Ntd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fsv-rN-wXK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Jj-Bn-1bB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TAB 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFU-h7-lXk">
+                                <rect key="frame" x="164" y="323" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Tab5" id="mVm-YF-zgx">
+                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tMy-h7-hlU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1470" y="-1351"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ro7-is-b8d">
+            <objects>
+                <viewController id="9e1-eY-cOi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IXf-f4-5HL"/>
+                        <viewControllerLayoutGuide type="bottom" id="qZE-fj-1e9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EAo-ee-cuh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TAB 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ok-nJ-qDI">
+                                <rect key="frame" x="164" y="323" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Tab4" id="fr6-mn-cBa">
+                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U5I-5U-tlC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671.20000000000005" y="-1352.473763118441"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LXq-83-seh">
+            <objects>
+                <viewController id="chz-IW-Myz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bNW-kh-1gH"/>
+                        <viewControllerLayoutGuide type="bottom" id="4DK-lZ-pkw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Aub-ze-GOt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TAB 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2l3-Of-hKu">
+                                <rect key="frame" x="164" y="323" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Tab2" id="LoC-4o-93n">
+                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRc-1e-AA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="255" y="-1352"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fvd-pa-zdO">
+            <objects>
+                <viewController id="Cdw-9c-jJq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R0S-B6-NYt"/>
+                        <viewControllerLayoutGuide type="bottom" id="MuS-9p-rN6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="piJ-cb-AK6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TAB 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Rm-zk-zW5">
+                                <rect key="frame" x="166" y="323" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Tab1" id="lCU-Bs-vFY">
+                        <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="-9"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oIs-lp-dwV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1174" y="-1352"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dM5-4f-q2W">
+            <objects>
+                <tabBarController storyboardIdentifier="tabBarController" id="lcF-Vy-FX8" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hnz-W4-rHB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="Cdw-9c-jJq" kind="relationship" relationship="viewControllers" id="pfJ-Zj-sdC"/>
+                        <segue destination="chz-IW-Myz" kind="relationship" relationship="viewControllers" id="0Ay-fx-hKW"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="PJd-Hc-yvn"/>
+                        <segue destination="9e1-eY-cOi" kind="relationship" relationship="viewControllers" id="ofe-9U-lgF"/>
+                        <segue destination="VFI-b6-Zek" kind="relationship" relationship="viewControllers" id="hAB-ep-KtO"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VzU-at-Auc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114" y="-617"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cvZ-AG-jdS">
@@ -315,125 +404,131 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYG-EK-27o">
-                                <rect key="frame" x="20" y="58" width="160" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Laptop Repair"/>
-                                <connections>
-                                    <segue destination="EVp-ag-NHj" kind="show" id="n2C-Sm-aX4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61t-7H-ha0">
-                                <rect key="frame" x="194" y="58" width="160" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Mobile Repair"/>
-                                <connections>
-                                    <segue destination="dJa-Id-Cku" kind="show" id="lQq-Be-baN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFk-ki-kBZ">
-                                <rect key="frame" x="20" y="196" width="160" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Tablet Repair"/>
-                                <connections>
-                                    <segue destination="7cc-Cw-unO" kind="show" id="SWm-jg-UAa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGW-4h-5f3">
-                                <rect key="frame" x="194" y="196" width="160" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="TV Repair"/>
-                                <connections>
-                                    <segue destination="uHK-of-9JS" kind="show" id="lDp-bR-6hM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Twu-WO-Klh">
-                                <rect key="frame" x="21" y="334" width="160" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Printer Repair"/>
-                                <connections>
-                                    <segue destination="ewq-QH-wBq" kind="show" id="c4D-wy-2F5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YV0-rK-uo9">
-                                <rect key="frame" x="195" y="334" width="160" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="WiFi Support"/>
-                                <connections>
-                                    <segue destination="PCG-7d-y40" kind="show" id="Qw9-DA-IaD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrK-vG-tGl">
-                                <rect key="frame" x="21" y="472" width="160" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="CCTV Installation"/>
-                                <connections>
-                                    <segue destination="dA4-kp-tCO" kind="show" id="kEU-UF-gKl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMA-z4-m7d">
-                                <rect key="frame" x="195" y="472" width="160" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Appliances"/>
-                                <connections>
-                                    <segue destination="b61-kc-uKO" kind="show" id="pDb-Gb-767"/>
-                                </connections>
-                            </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="aye-Bg-Ib8">
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aye-Bg-Ib8">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.017735783000000001" green="0.34670436160000001" blue="0.69088001939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="FFE-iA-e2b"/>
+                                    <constraint firstAttribute="width" constant="375" id="dni-7p-kfH"/>
+                                </constraints>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.0" green="0.3921568627" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="ELECTRONICS" id="HOR-h9-xO5">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="Emb-48-PX4">
+                                    <navigationItem title="Electronics" id="dVB-vS-YEz">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="jnA-qJ-wnM">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="RwC-AG-sPv">
-                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="lcF-Vy-FX8" kind="show" id="5lc-Ut-jZs"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qHu-cj-7kW">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="sp6-kd-cNx">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="iAw-mM-hHN">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="oqV-YK-IRx">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="iXl-tb-x6z">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="odW-aa-SkW">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="J0f-AN-H6w">
+                                <rect key="frame" x="32" y="96" width="311" height="539"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="vrc-rR-OS0">
+                                        <rect key="frame" x="0.0" y="0.0" width="311" height="123.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYG-EK-27o">
+                                                <rect key="frame" x="0.0" y="0.0" width="148" height="123.5"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Laptop Repair"/>
+                                                <connections>
+                                                    <segue destination="EVp-ag-NHj" kind="show" id="n2C-Sm-aX4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61t-7H-ha0">
+                                                <rect key="frame" x="163" y="0.0" width="148" height="123.5"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Mobile Repair"/>
+                                                <connections>
+                                                    <segue destination="dJa-Id-Cku" kind="show" id="lQq-Be-baN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="40Y-HV-m36">
+                                        <rect key="frame" x="0.0" y="138.5" width="311" height="123.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFk-ki-kBZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="148" height="123.5"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Tablet Repair"/>
+                                                <connections>
+                                                    <segue destination="7cc-Cw-unO" kind="show" id="SWm-jg-UAa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGW-4h-5f3">
+                                                <rect key="frame" x="163" y="0.0" width="148" height="123.5"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="TV Repair"/>
+                                                <connections>
+                                                    <segue destination="uHK-of-9JS" kind="show" id="lDp-bR-6hM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Hl9-0L-bgF">
+                                        <rect key="frame" x="0.0" y="277" width="311" height="123.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Twu-WO-Klh">
+                                                <rect key="frame" x="0.0" y="0.0" width="148" height="123.5"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Printer Repair"/>
+                                                <connections>
+                                                    <segue destination="ewq-QH-wBq" kind="show" id="c4D-wy-2F5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YV0-rK-uo9">
+                                                <rect key="frame" x="163" y="0.0" width="148" height="123.5"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="WiFi Support"/>
+                                                <connections>
+                                                    <segue destination="PCG-7d-y40" kind="show" id="Qw9-DA-IaD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="4co-Gs-lMa">
+                                        <rect key="frame" x="0.0" y="415.5" width="311" height="123.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrK-vG-tGl">
+                                                <rect key="frame" x="0.0" y="0.0" width="148" height="123.5"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="CCTV Installation"/>
+                                                <connections>
+                                                    <segue destination="dA4-kp-tCO" kind="show" id="kEU-UF-gKl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mMA-z4-m7d">
+                                                <rect key="frame" x="163" y="0.0" width="148" height="123.5"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Appliances"/>
+                                                <connections>
+                                                    <segue destination="b61-kc-uKO" kind="show" id="pDb-Gb-767"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aye-Bg-Ib8" firstAttribute="leading" secondItem="Bo8-dJ-Tlu" secondAttribute="leading" id="2K8-jT-DNR"/>
+                            <constraint firstItem="aye-Bg-Ib8" firstAttribute="top" secondItem="y5G-g9-lsa" secondAttribute="bottom" id="PFA-xO-rKd"/>
+                            <constraint firstItem="ryh-Qx-eji" firstAttribute="top" secondItem="J0f-AN-H6w" secondAttribute="bottom" constant="32" id="XFN-vH-E4u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="J0f-AN-H6w" secondAttribute="trailing" constant="16" id="cu8-QO-iNW"/>
+                            <constraint firstAttribute="trailing" secondItem="aye-Bg-Ib8" secondAttribute="trailing" id="gre-Ub-9tg"/>
+                            <constraint firstItem="J0f-AN-H6w" firstAttribute="top" secondItem="aye-Bg-Ib8" secondAttribute="bottom" constant="32" id="jls-rQ-1Hd"/>
+                            <constraint firstItem="J0f-AN-H6w" firstAttribute="leading" secondItem="Bo8-dJ-Tlu" secondAttribute="leadingMargin" constant="16" id="uiK-7y-blg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tPK-Dx-Ys6" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33" y="738"/>
+            <point key="canvasLocation" x="-751" y="617"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ktY-AV-fBA">
@@ -447,50 +542,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ige-1v-tcG">
-                                <rect key="frame" x="16" y="282" width="165" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="On Site"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ype-72-Ubo">
-                                <rect key="frame" x="195" y="282" width="164" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Collect &amp; Return"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpE-A0-ibr">
-                                <rect key="frame" x="16" y="505" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="CONTINUE">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Brand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czn-3j-0dc">
-                                <rect key="frame" x="16" y="68" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Model" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zgI-W0-wQ8">
-                                <rect key="frame" x="16" y="138" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kt9-xG-U60">
-                                <rect key="frame" x="16" y="207" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="xIl-PF-HbF">
                                 <rect key="frame" x="-3" y="20" width="380" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -501,6 +552,9 @@
                                     <navigationItem title="LAPTOP REPAIR" id="pok-6V-bc7">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="bP8-yX-XyI">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="Pdd-gL-qhl"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="TBV-r9-amJ">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -508,29 +562,50 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C1z-Ki-svO">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ige-1v-tcG">
+                                <rect key="frame" x="16" y="312" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="ffF-pi-Tn3">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="eQW-bE-KVO">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="lEA-Mv-TVD">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="H53-ln-qeo">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="NXM-mO-ERJ">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="On Site"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ype-72-Ubo">
+                                <rect key="frame" x="195" y="312" width="164" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Collect &amp; Return"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpE-A0-ibr">
+                                <rect key="frame" x="16" y="535" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="CONTINUE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Brand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czn-3j-0dc">
+                                <rect key="frame" x="16" y="98" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Model" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zgI-W0-wQ8">
+                                <rect key="frame" x="16" y="168" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kt9-xG-U60">
+                                <rect key="frame" x="16" y="237" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -551,50 +626,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TM-Y9-6Kd">
-                                <rect key="frame" x="16" y="272" width="165" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="On Site"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXh-se-njs">
-                                <rect key="frame" x="195" y="272" width="164" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Collect &amp; Return"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zh-LV-yw8">
-                                <rect key="frame" x="16" y="505" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="CONTINUE">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Brand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qxM-3g-h3y">
-                                <rect key="frame" x="16" y="58" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Model" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pbh-q1-P2K">
-                                <rect key="frame" x="16" y="128" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tdn-un-zTS">
-                                <rect key="frame" x="16" y="197" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="M0J-fu-phk">
                                 <rect key="frame" x="-2" y="20" width="380" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -605,6 +636,9 @@
                                     <navigationItem title="MOBILE REPAIR" id="IXa-0m-FaT">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="q5V-KX-zL1">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="7K1-J3-pTH"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="6De-Nw-IdZ">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -612,29 +646,50 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ly5-AH-R2O">
-                                <rect key="frame" x="-2" y="618" width="375" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TM-Y9-6Kd">
+                                <rect key="frame" x="16" y="311" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="PHb-mY-yIC">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="cia-G9-NRR">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="Xu3-jL-EYq">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="2ve-i4-rA7">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="ki2-o2-YBx">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="On Site"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXh-se-njs">
+                                <rect key="frame" x="195" y="311" width="164" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Collect &amp; Return"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zh-LV-yw8">
+                                <rect key="frame" x="16" y="544" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="CONTINUE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Brand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qxM-3g-h3y">
+                                <rect key="frame" x="16" y="97" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Model" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pbh-q1-P2K">
+                                <rect key="frame" x="16" y="167" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tdn-un-zTS">
+                                <rect key="frame" x="16" y="236" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -709,6 +764,9 @@
                                     <navigationItem title="TABLET REPAIR" id="kNz-q3-Xo1">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="oWj-fp-Hfb">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="NL4-JW-qYT"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="F4N-Jz-eGw">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -716,29 +774,6 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEf-xg-afT">
-                                <rect key="frame" x="-2" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="m0H-fU-16P">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="RyS-zc-xj0">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="BCc-fZ-rRA">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="4ru-yS-PWm">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="1Mq-mC-TtY">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -759,50 +794,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAR-2S-xP0">
-                                <rect key="frame" x="16" y="282" width="165" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="On Site"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgz-cv-iTS">
-                                <rect key="frame" x="195" y="282" width="164" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Collect &amp; Return"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ol-82-e5T">
-                                <rect key="frame" x="16" y="505" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="CONTINUE">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Brand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="esc-2f-aRm">
-                                <rect key="frame" x="16" y="68" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Model" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="guX-bF-Qxb">
-                                <rect key="frame" x="16" y="138" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="udF-Ol-yST">
-                                <rect key="frame" x="16" y="207" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="UJ4-o8-BwE">
                                 <rect key="frame" x="-3" y="20" width="380" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -813,6 +804,9 @@
                                     <navigationItem title="PRINTER REPAIR" id="g1j-AK-wjx">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="Ypl-gE-88K">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="cGi-pm-Xc7"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="x6I-QB-5gW">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -820,29 +814,50 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gms-a0-QCN">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAR-2S-xP0">
+                                <rect key="frame" x="16" y="304" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="PZ4-X1-eHb">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="CoK-qo-LFD">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="rpc-PU-gEU">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="wug-mr-nfj">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="7us-7e-Hqg">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="On Site"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgz-cv-iTS">
+                                <rect key="frame" x="194" y="304" width="164" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Collect &amp; Return"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ol-82-e5T">
+                                <rect key="frame" x="16" y="527" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="CONTINUE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Brand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="esc-2f-aRm">
+                                <rect key="frame" x="16" y="90" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Model" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="guX-bF-Qxb">
+                                <rect key="frame" x="16" y="160" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="udF-Ol-yST">
+                                <rect key="frame" x="16" y="229" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -863,70 +878,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdi-Nt-UrW">
-                                <rect key="frame" x="16" y="402" width="165" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="On Site"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g84-MN-rAR">
-                                <rect key="frame" x="195" y="402" width="164" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Collect &amp; Return"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5F-dw-29g">
-                                <rect key="frame" x="16" y="545" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="CONTINUE">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Brand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s8i-gg-3ED">
-                                <rect key="frame" x="16" y="58" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Model" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HWp-G8-5Vn">
-                                <rect key="frame" x="16" y="128" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cll-rZ-fIZ">
-                                <rect key="frame" x="16" y="197" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Size" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ghv-rf-Gvx">
-                                <rect key="frame" x="16" y="265" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Quantity" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Z7-B8-Vzh">
-                                <rect key="frame" x="16" y="334" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="p9G-qR-AMi">
-                                <rect key="frame" x="259" y="345" width="94" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stepper>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="RFc-AX-1VO">
                                 <rect key="frame" x="-2" y="20" width="380" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -937,6 +888,9 @@
                                     <navigationItem title="TV REPAIR" id="Hgg-IS-vZB">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="9Wp-LL-c54">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="ikJ-sr-l0y"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="GRY-Hh-scz">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -944,29 +898,70 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7dU-Hr-9JU">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdi-Nt-UrW">
+                                <rect key="frame" x="16" y="422" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="sK5-Wp-Jb6">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="4We-ZQ-Vo1">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="XTZ-hg-4Al">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="tNW-3m-4OW">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="OFb-KO-VAD">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="On Site"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g84-MN-rAR">
+                                <rect key="frame" x="194" y="422" width="164" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Collect &amp; Return"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5F-dw-29g">
+                                <rect key="frame" x="16" y="565" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="CONTINUE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Brand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s8i-gg-3ED">
+                                <rect key="frame" x="16" y="78" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Model" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HWp-G8-5Vn">
+                                <rect key="frame" x="16" y="148" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cll-rZ-fIZ">
+                                <rect key="frame" x="16" y="217" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Size" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ghv-rf-Gvx">
+                                <rect key="frame" x="16" y="285" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Quantity" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Z7-B8-Vzh">
+                                <rect key="frame" x="16" y="354" width="343" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="p9G-qR-AMi">
+                                <rect key="frame" x="258" y="365" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -1037,6 +1032,9 @@
                                     <navigationItem title="APPLIANCES" id="DNc-Yx-8AU">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="POX-aa-yqB">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="8dg-X1-rXc"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="PoH-Mt-AcD">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1044,29 +1042,6 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nsa-bK-ThK">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="bMH-xj-myM">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="Q47-2t-BfU">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="HaZ-wZ-nM0">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="adj-4z-HnE">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="Is7-Cj-wpj">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -1088,33 +1063,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8P-b4-LI6">
-                                <rect key="frame" x="16" y="392" width="165" height="120"/>
+                                <rect key="frame" x="16" y="439" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="On Site"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWX-kQ-tct">
-                                <rect key="frame" x="195" y="392" width="164" height="120"/>
+                                <rect key="frame" x="195" y="439" width="164" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Collect &amp; Return"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mw4-tZ-iq8">
-                                <rect key="frame" x="16" y="63" width="165" height="80"/>
+                                <rect key="frame" x="16" y="110" width="165" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="Camera Installation Only"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8M9-yn-ILB">
-                                <rect key="frame" x="195" y="63" width="164" height="80"/>
+                                <rect key="frame" x="195" y="110" width="164" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="Cameras with Installation"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgh-io-MWE">
-                                <rect key="frame" x="16" y="550" width="343" height="50"/>
+                                <rect key="frame" x="16" y="597" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="CONTINUE">
@@ -1122,7 +1097,7 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Range" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Yi-gZ-4Mq">
-                                <rect key="frame" x="16" y="238" width="343" height="50"/>
+                                <rect key="frame" x="16" y="285" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
@@ -1130,7 +1105,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4dG-6a-QlI">
-                                <rect key="frame" x="17" y="164" width="343" height="50"/>
+                                <rect key="frame" x="17" y="211" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
@@ -1138,17 +1113,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Quantity" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ps0-GB-gwT">
-                                <rect key="frame" x="16" y="310" width="343" height="50"/>
+                                <rect key="frame" x="16" y="357" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="PTT-bq-a12">
-                                <rect key="frame" x="252" y="321" width="94" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stepper>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="wQT-3Z-JYD">
                                 <rect key="frame" x="-1" y="19" width="377" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -1159,6 +1130,9 @@
                                     <navigationItem title="CCTV REPAIR" id="PVc-jw-9da">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="BAP-mj-xnO">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="wXG-Yn-6Xm"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="XnK-z3-PGW">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1166,29 +1140,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzy-Jt-bV0">
-                                <rect key="frame" x="1" y="618" width="375" height="49"/>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="PTT-bq-a12">
+                                <rect key="frame" x="252" y="296" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="cKh-ya-MDJ">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="LZF-dc-J8M">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="zrD-Qd-nBL">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="LRa-hw-nOK">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="AMQ-yH-PRn">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -1210,49 +1165,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oMT-3q-qaZ">
-                                <rect key="frame" x="16" y="383" width="165" height="120"/>
+                                <rect key="frame" x="15" y="406" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="On Site"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQp-wF-55Z">
-                                <rect key="frame" x="195" y="383" width="164" height="120"/>
+                                <rect key="frame" x="195" y="406" width="164" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Collect &amp; Return"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVq-HV-dtR">
-                                <rect key="frame" x="16" y="66" width="343" height="60"/>
+                                <rect key="frame" x="15" y="89" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="WiFi Diagnosis"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bw-kr-Mwh">
-                                <rect key="frame" x="16" y="228" width="343" height="60"/>
+                                <rect key="frame" x="15" y="251" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="WiFi Extension"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQk-Do-mWd">
-                                <rect key="frame" x="16" y="550" width="343" height="50"/>
+                                <rect key="frame" x="16" y="542" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSw-AO-ah5">
-                                <rect key="frame" x="16" y="325" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9w-eb-dSX">
-                                <rect key="frame" x="16" y="145" width="343" height="60"/>
+                                <rect key="frame" x="15" y="168" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -1268,6 +1215,9 @@
                                     <navigationItem title="WiFi" id="eku-J0-MhI">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="mGg-oG-x7X">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="nAb-tC-J7Q"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="lMB-VX-AH5">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1275,29 +1225,14 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R7m-Mf-v0Z">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSw-AO-ah5">
+                                <rect key="frame" x="15" y="333" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="6M2-0L-TZ7">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="ybR-5m-7F6">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="iRA-4E-d8i">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="ajL-PS-q5I">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="gXS-da-i2d">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -1319,50 +1254,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ac4-QG-FbC">
-                                <rect key="frame" x="16" y="237" width="165" height="120"/>
+                                <rect key="frame" x="16" y="332" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="On Site"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFj-X3-8ta">
-                                <rect key="frame" x="195" y="237" width="164" height="120"/>
+                                <rect key="frame" x="195" y="332" width="164" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Collect &amp; Return"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHk-G1-142">
-                                <rect key="frame" x="16" y="63" width="165" height="80"/>
+                                <rect key="frame" x="16" y="158" width="165" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="Windows"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsa-jX-ugF">
-                                <rect key="frame" x="195" y="63" width="164" height="80"/>
+                                <rect key="frame" x="195" y="158" width="164" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="Mac"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRt-oH-oeO">
-                                <rect key="frame" x="16" y="530" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="CONTINUE">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Location" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sae-sS-Lwk">
-                                <rect key="frame" x="17" y="164" width="343" height="50"/>
+                                <rect key="frame" x="17" y="259" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="Mfw-nO-sy9">
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="Mfw-nO-sy9">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.017735783000000001" green="0.34670436160000001" blue="0.69088001939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.0" green="0.3921568627" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1370,6 +1296,9 @@
                                     <navigationItem title="OS INSTALLATION" id="GvK-8Y-Ia3">
                                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="rk6-8y-DUh">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="mhN-Oh-msy" kind="show" id="QDi-4l-xXz"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="2BL-kX-IAN">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1377,31 +1306,21 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="00c-Mr-AEa">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRt-oH-oeO">
+                                <rect key="frame" x="16" y="547" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="" image="Tab1" id="zih-rk-clx">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab2" id="qUi-LN-GWh">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="" image="Tab3" id="EOj-JJ-PAg">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab4" id="h6z-ED-kNv">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                    <tabBarItem image="Tab5" id="cEr-LW-LzM">
-                                        <inset key="imageInsets" minX="3" minY="12" maxX="3" maxY="-4"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                            </tabBar>
+                                <color key="backgroundColor" red="0.0" green="0.47058823529411764" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="CONTINUE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91941676699999997" green="0.92170006989999997" blue="0.94642568010000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mfw-nO-sy9" firstAttribute="top" secondItem="I6F-mB-4hh" secondAttribute="bottom" id="EJd-2k-pDx"/>
+                            <constraint firstAttribute="trailing" secondItem="Mfw-nO-sy9" secondAttribute="trailing" id="HBN-o7-6ZC"/>
+                            <constraint firstItem="Mfw-nO-sy9" firstAttribute="leading" secondItem="6tn-rL-kI3" secondAttribute="leading" id="cEK-kW-2vq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4X-rh-RYc" sceneMemberID="firstResponder"/>
@@ -1418,9 +1337,11 @@
         <image name="Offerzone" width="38" height="32"/>
         <image name="Tab1" width="26" height="34"/>
         <image name="Tab2" width="29" height="32"/>
-        <image name="Tab3" width="34" height="32"/>
         <image name="Tab4" width="31" height="31"/>
         <image name="Tab5" width="37" height="32"/>
-        <image name="border" width="16" height="12"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="3Ro-dM-gJ1"/>
+        <segue reference="QQ4-cp-Qdf"/>
+    </inferredMetricsTieBreakers>
 </document>

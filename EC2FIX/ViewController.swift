@@ -25,9 +25,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
         let statWindow = UIApplication.shared.value(forKey:"statusBarWindow") as! UIView
         let statusBar = statWindow.subviews[0] as UIView
         statusBar.backgroundColor = UIColorFromRGB(rgbValue: 0x0078ff) //your required color
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +40,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+ 
 }
 
