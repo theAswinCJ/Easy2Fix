@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					A086849E1F0E75FE002D090E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = EXYZVSJ6C3;
+						DevelopmentTeam = 3383ZUTJS9;
 						ProvisioningStyle = Automatic;
 					};
 					A08684B21F0E75FE002D090E = {
@@ -415,7 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EXYZVSJ6C3;
+				DEVELOPMENT_TEAM = 3383ZUTJS9;
 				INFOPLIST_FILE = EC2FIX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ec2fix.ios.ECtoFIX;
@@ -428,7 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = EXYZVSJ6C3;
+				DEVELOPMENT_TEAM = 3383ZUTJS9;
 				INFOPLIST_FILE = EC2FIX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ec2fix.ios.ECtoFIX;
